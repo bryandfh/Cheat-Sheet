@@ -1,8 +1,7 @@
 let mysql = require('mysql');
 let config = require('./config.js');
-let connection = mysql.createConnection(config);
-
 let fs = require('fs');
+let connection = mysql.createConnection(config);
 
 function parse(row){
     row = row.split(' – ')

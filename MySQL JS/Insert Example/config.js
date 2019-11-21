@@ -1,3 +1,4 @@
+//Example of database configuration
 let config = {
     host    : 'localhost',
     user    : 'bryan',
