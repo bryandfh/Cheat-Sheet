@@ -9,6 +9,6 @@ properties of that object removing the Id and leave it like Campagna_Trade__r.Pa
 */
 for(Case c : [SELECT Id, Campagna_Trade__r.Parent.Name , Accion_Trade__r.Subtipo__c, Accion_Trade__r.Tipo__c FROM Case where Id IN :ids and Status = 'Confirmada']){
     if(c.Accion_Trade__r.Tipo__c == 'Digital local'){
-        campaignList.add(new Campaign(Name = c.Campagna_Trade__r.Parent.Name + c.Accion_Trade__r.Subtipo__c));
+        //Do stuff
     } 
 }
