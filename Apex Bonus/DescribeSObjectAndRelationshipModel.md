@@ -23,38 +23,38 @@
 * Accounts y Opportunity tienen un lookup relationship en Salesforce, esto permite que se cree una oportunidad sin especificar el Account Record. Sin embargo, se comporta también como una relación Master-Detail, esto hace que si por ejemplo se borra una Account se borrarían también todas las oportunidades relacionadas. 
 
 ### Diagrama de relationships: 
-![Diagrama Relaciones](Apex%20Bonus/images/sales-data-model.png)
+![Diagrama Relaciones](./images/sales-data-model.png)
 
 ### Campaign and Campaign Members: 
 
 Una campaña está formada por diferentes Campaign Members y estos Campaign Member puede ser Lead o Contacts. 
 
 ### Lead Conversion: 
-![Diagrama Relaciones](Apex%20Bonus/images/lead-account-opportunities.png)
+![Diagrama Relaciones](./images/lead-account-opportunities.png)
 
 ### Account to Calendar Events and Task and Activities
-![Diagrama Relaciones](Apex%20Bonus/images/calendar-events.png)
+![Diagrama Relaciones](./images/calendar-events.png)
 
 ### Contact to Calendar Events and Task and Activities
-![Diagrama Relaciones](Apex%20Bonus/images/calendar-events-contact.png)
+![Diagrama Relaciones](./images/calendar-events-contact.png)
 
 ### Contract to Orders and Case to Solutions
-![Diagrama Relaciones](Apex%20Bonus/images/contract-case-orders-solutions-image-6.png)
+![Diagrama Relaciones](./images/contract-case-orders-solutions-image-6.png)
 
 ### Product to Assets and Price Books
-![Diagrama Relaciones](Apex%20Bonus/images/pricebooks-asset-products.png)
+![Diagrama Relaciones](./images/pricebooks-asset-products.png)
 
 ### Product to Assets and Price Books
-![Diagrama Relaciones](Apex%20Bonus/images/pricebooks-asset-products.png)
+![Diagrama Relaciones](./images/pricebooks-asset-products.png)
 
 ### Opportunity to Quote, Pirce Book, and Opportunity Products
-![Diagrama Relaciones](Apex%20Bonus/images/opportunity-product.png)
+![Diagrama Relaciones](./images/opportunity-product.png)
 
 ### Contact to Case, Work Orders, and Work Order Line Items
-![Diagrama Relaciones](Apex%20Bonus/images/contact.png)
+![Diagrama Relaciones](./images/contact.png)
 
 ### Account and Contract to Order
-![Diagrama Relaciones](Apex%20Bonus/images/order.png)
+![Diagrama Relaciones](./images/order.png)
 
 ### Work Orders:
 * Sirve para seguir reparaciones y mantenimiento
@@ -72,11 +72,11 @@ Una campaña está formada por diferentes Campaign Members y estos Campaign Memb
 ###  Many-to-Many Relationships:
 
 ### Example Lookup, Master-Detail and Many-to-Many Relationships
-![Diagrama Relaciones](Apex%20Bonus/images/EMM.png)
-![Diagrama Relaciones](Apex%20Bonus/images/relationship-image.png)
-![Diagrama Relaciones](Apex%20Bonus/images/candidate-application.png)
-![Diagrama Relaciones](Apex%20Bonus/images/application-interview.png)
-![Diagrama Relaciones](Apex%20Bonus/images/EMM1.png)
-![Diagrama Relaciones](Apex%20Bonus/images/EMM2.png)
-![Diagrama Relaciones](Apex%20Bonus/images/Hierarchical_Relationship.png)
-![Diagrama Relaciones](Apex%20Bonus/images/Lookup_Relationship_Self.png)
+![Diagrama Relaciones](./images/EMM.png)
+![Diagrama Relaciones](./images/relationship-image.png)
+![Diagrama Relaciones](./images/candidate-application.png)
+![Diagrama Relaciones](./images/application-interview.png)
+![Diagrama Relaciones](./images/EMM1.png)
+![Diagrama Relaciones](./images/EMM2.png)
+![Diagrama Relaciones](./images/Hierarchical_Relationship.png)
+![Diagrama Relaciones](./images/Lookup_Relationship_Self.png)
