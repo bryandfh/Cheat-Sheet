@@ -10,7 +10,7 @@ const makeServerRequest = new Promise((resolve, reject) => {
 });
 
 //Use of .then
-myPromise.then(result => {
+makeServerRequest.then(result => {
     console.log(result);// do something with the result.
 });
 
