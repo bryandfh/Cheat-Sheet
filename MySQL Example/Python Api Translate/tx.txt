@@ -1,0 +1,1 @@
+{"Ich": "bin", "Du": "bist", "Er/Sie/Es": "ist", "Wir": "sind", "Ihr": "seid", "Sie/sie": "sind"}
