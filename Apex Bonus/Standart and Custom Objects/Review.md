@@ -1,17 +1,17 @@
 <h1> Review Standard and Custom Objects (14%)</h1>
 
 ### What can be customized for standard fields?
-*Fields Labels
-*Field Help
-*Picklist Value
-*Auto Number Formatting
+* Fields Labels
+* Field Help
+* Picklist Value
+* Auto Number Formatting
 
 ### What are the main custom field attributes?
-*Field Type
-*Default Value
-*Required
-*Unique
-*Case sensitive
+* Field Type
+* Default Value
+* Required
+* Unique
+* Case sensitive
 
 ### What is an External ID?
 A field that contains a unique identifier from an external system and can be used for matching records when data is imported or integrated.
