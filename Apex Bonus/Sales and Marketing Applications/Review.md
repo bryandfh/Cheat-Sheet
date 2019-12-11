@@ -1,4 +1,4 @@
-<h1> Review for Sales and Marketing Applications</h1>
+<h1> Review for Sales and Marketing Applications (7%) </h1>
 
 ### What is the Opportunity Board? 
 Shows Opportunities of one record tye on a board with columns for each Sales Stage. Ot shows the total for each stage and Opportunities can be moved between stages by dragging and dropping.
