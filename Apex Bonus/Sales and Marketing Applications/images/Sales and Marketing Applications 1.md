@@ -73,6 +73,11 @@ Forecast are a way of estimating revenue for products and services in the future
 
 ### Opportunity Splits
 
+* Allow opportunity revenue or other Opportunity currency fields to be split among the opportunity team members.
+* Needs to be enabled. When enabled Salesfore add two splits: 
+ * Revenue splits: Will be used in revenue based forecast.
+ * Overlay splits.
+ 
 <h3> ... in progress </h3>
 
 
