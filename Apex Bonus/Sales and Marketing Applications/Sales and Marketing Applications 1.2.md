@@ -56,3 +56,36 @@ Feature that provides a view of all information related to an Opportunity. It co
 6. Display Opportunity related information.
 
 ![Opportunity Workspace](./images/opportunity-workspace.png)
+
+### Product Schedules:
+
+A product can be associated with a revenue or quantity schedule.
+
+* Revenue schedule: Can be used if customer make regular pauments but receive the product once.
+* Quantity schedule: Can be used if customer pay once but receive the product in increments. For example a magazine.
+
+### Price Book:
+
+* Is a group of products and their associated prices
+* A Price Book entry is an individual product and its associated price.
+* Use standar Price Books if only one price is needed for all customers.
+* If price vary for different customers, custom Price Books can be added.
+* Products must have a standard price defined in the standard price book to be available to add to an opportunity.
+* Products can only be added from a single Price Book.
+* Changing a selected Price Book will delete all existing products from the opportunity.
+
+### Big Deal Alert:
+
+* Can be used to send notifications when an Opportunity of a certain value reaches a trigger probability and trigger amount.
+* The alert will trigger when the Opportunity reaches the trigger probability but will not send again if it goes higher.
+* An alert will be sent again if the probability drops below the trigger and reaches it again.
+
+### Similar Opportunities.
+
+* Use Match criteria based on 3- 10 opportunity fields or related list can be determine how to find similar opportunities.
+* Only available in Salesforce Classic.
+
+### Opportunity Competitors: 
+
+* Allow one or more competitor and their strengths and weakness to be listen on an Opportunity.
+* Picklist value for Competitors must be defined, and it's only available in Salesforce Classic.
