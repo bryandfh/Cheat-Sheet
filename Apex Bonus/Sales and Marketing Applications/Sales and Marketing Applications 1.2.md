@@ -2,7 +2,7 @@
 
 ### Opportunity tools:
 
-![Opportunity Tools](/images/Opportunity-Tools1.png)
+![Opportunity Tools](./images/Opportunity-Tools1.png)
 
 ### Path:
 
