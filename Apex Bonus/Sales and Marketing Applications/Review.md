@@ -49,24 +49,29 @@ Returns, cancellations and reductions in quantity.
 ### When forecasting by schedule date, which values are used by Salesforce to calculate forecast amounts?
 Value from product schedule's Date and Revenue or Quantity fields to calculate forecast amounts.
 
+### What are territory forecast based on when a forecast manager is not assigned to a territory?
+The territory's forecast are based on the individual users assigned to the territory.
+
 <h2> Quizlet style questions </h2>
 
+### Which Salesforce feature can be used by sales reps to make and receive calls in Salesforce as logcall details automatically?
+Lightning Dialer.
 
+### What can be created and run in a Lightning Sales Console to automate repetitive task such as updating opportunities and sending an email?
+Macro.
 
+### In Lightning Experience, which type of team can be used if a partner user needs to work with an internal user on a particular opportunity?
+Opportunity Team.
 
+### When using Lightning Dialer, which feature allow sales reps to use a separete business line to make and receive calls?
+Call Bridge.
 
+### Which forecast type should be used to enable territory forecast in Collaborative Forecasting?
+Opportunity Revenue by Territory.
 
+### Which access levels are possible when a forecast manager shares his forecasts page with another user?
+* View Only.
+* View and Edit.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Whic Lightning Dialer feature can be utilized by sales reps to refer back to important conversations to imprive their selling techniques?
+Call recording.
