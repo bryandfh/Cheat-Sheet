@@ -1,7 +1,5 @@
 <h3> Given a scenario, identify the appropiate sales productivity feature using opportunity tools and know when products and Price Books should be used </h3>
 
-### Opportunity tools:
-
 ![Opportunity Tools](./images/Opportunity-Tools1.png)
 
 ### Path:
@@ -10,7 +8,7 @@
 * Paths can be defined per record type.
 * It's only available in Salesforce Classic.
 
-![Path Example](/images/path.png)
+![Path Example](./images/path.png)
 
 ### Kanban:
 
@@ -18,7 +16,7 @@
 * Available on standard and custom object that have picklist.
 * Only available in Lightning Experience.
 
-![Kanban](/images/opportunity_board.png)
+![Kanban](./images/opportunity_board.png)
 
 ### Sales console :
 
@@ -27,7 +25,7 @@
 * There is the Highlights Panel which can display up to 4 key fields from a record.
 * Macro functionality is available to automate steps applied to a record.
 
-![Cloud console](/images/cloud-console.png)
+![Cloud console](./images/cloud-console.png)
 
 ### Macros:
 
@@ -57,4 +55,4 @@ Feature that provides a view of all information related to an Opportunity. It co
 5. Display Open Task or Upcoming Events and Complete Task and Past Events.
 6. Display Opportunity related information.
 
-![Opportunity Workspace](/images/opportunity-workspace.png)
+![Opportunity Workspace](./images/opportunity-workspace.png)
