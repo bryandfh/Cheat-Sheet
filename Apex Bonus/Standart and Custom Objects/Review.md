@@ -46,7 +46,7 @@ Record Types are used when one object has different types or is used for differe
 ### What is a business process? 
 Is a way to capture the lifecycle of leads, opportunities, cases and solutions.
 
-###How are business processes defined and used? 
+### How are business processes defined and used? 
 Value for status fields are selected for a business process from the master picklist values. The business process is then assigned to a record type.
 
 ### What happens when a custom field is deleted? 
@@ -70,3 +70,27 @@ To provide visual guidance for helping a user move throughs steps.
 
 ### Which type of custom field can be created to store information about the preferred contact hours of a customer?
 Time
+
+### What are some considerations when changing the field type of a custom field?
+* Data loss may occur.
+* Assignment and escalation rules may be affected.
+* Any list views based on the fields may be deleted.
+
+### A Salesforce administrator thought it would be a good idea to set up a business process for a new custom object called 'Purchase Order'. Which are valid considerations?
+* Lead, Solution, Opportunity, and Case.
+
+### Which features are in lookup relationship but not in master-detail relationship?
+* The related record can have a different owner than the master record
+* The lookup field does not need to be a required field on the page layout
+
+### What are the basic steps when adding a new custom field?
+* Choose field type.
+* Enter field details.
+* Set field level security.
+* Select page layouts.
+
+### What is a case?
+ Description of a customer feedback, problem or question
+
+### Work orders can be associated with?
+Work Orders can be associated with Accounts, Assets, Cases, Contacts, Entitlements, Service Contracts and other Work Orders. They can also be related to other standard and custom objects with custom relationships. Knowledge articles can be attached to work orders and work order line items.
