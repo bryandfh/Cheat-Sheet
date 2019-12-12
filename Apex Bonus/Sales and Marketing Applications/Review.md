@@ -1,4 +1,4 @@
-<h1> Review for Sales and Marketing Applications (7%) </h1>
+<h1>Sales and Marketing Applications (7%) </h1>
 
 ### What is the Opportunity Board? 
 Shows Opportunities of one record tye on a board with columns for each Sales Stage. Ot shows the total for each stage and Opportunities can be moved between stages by dragging and dropping.
@@ -76,7 +76,7 @@ Opportunity Revenue by Territory.
 ### Whic Lightning Dialer feature can be utilized by sales reps to refer back to important conversations to imprive their selling techniques?
 Call recording.
 
-<h1> Review for Sales and Marketing Applications II (7%) </h1>
+<h1>Sales and Marketing Applications II (7%) </h1>
 
 ### How can duplicate Leads be identified and managed?
 Using the ‘Find Duplicates’ button, fields can be selected to search on, and up to 3 Leads can be merged from the search results.
