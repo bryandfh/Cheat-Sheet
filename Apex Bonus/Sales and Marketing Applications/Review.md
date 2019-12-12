@@ -121,6 +121,7 @@ The opportunity section in the Convert Lead window can be hidden in 'Lead Settin
 
 ### What is Campaign ROI?
 Return on investment of a campaign.
+(Amount of Won Opportunities minus Actual Cost) / Actual Cost
 
 ### What is the Campaign Hierarchy?
 A way to link related campaigns in a hierarchy of up to 5 levels and unlimited siblings.
@@ -132,3 +133,6 @@ Files are organized into libraries.
 
 ### What is a Content Delivery?
 A way to create a web based view of a file that can be shared via URL with external parties.
+
+### How many standard price book can an organization have?
+1
