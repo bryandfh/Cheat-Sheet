@@ -75,3 +75,60 @@ Opportunity Revenue by Territory.
 
 ### Whic Lightning Dialer feature can be utilized by sales reps to refer back to important conversations to imprive their selling techniques?
 Call recording.
+
+<h1> Review for Sales and Marketing Applications II (7%) </h1>
+
+### How can duplicate Leads be identified and managed?
+Using the ‘Find Duplicates’ button, fields can be selected to search on, and up to 3 Leads can be merged from the search results.
+
+### What tools and features are available to manage Leads?
+* Import Leads
+* Mass Delete Leads
+* Transfer Multiple Leads
+* Mass Email Leads
+* Mass Add Leads to Campaigns
+* Mass Change Lead Status
+
+### How can duplicate Leads be identified and managed?
+Using the ‘Find Duplicates’ button, fields can be selected to search on, and up to 3 Leads can be merged from the search results
+
+### What tools and features are available to manage Leads?
+Import Leads, Mass Delete Leads, Transfer Multiple Leads, Mass Email Leads, Mass Add Leads to Campaigns, Mass Change Lead Status
+
+### What is Lead Conversion?
+A way to convert Leads to linked newly created or existing Contact, Account and Opportunity records.
+
+### What is Lead Process?
+A group of Lead statuses mapped to a Lead record type. Allows for different steps in a Lead life-cycle to be defined for different types of Leads.
+
+### How can Leads be automatically assigned?
+Lead assignment rules can automatically assign Leads to users or queues based on criteria matching field values and can be evaluated upon creating or editing a Lead.
+
+### What are Lead Queues?
+Lead Queues are a place to hold Leads that have not been assigned an owner. They are accessed via a list view and users with access to the queue can ‘accept’ Leads to take ownership.
+
+### What needs to be connected to Salesforce to generate leads from LinkedIn?
+A LinkedIn member account with one or more ad accounts
+
+### How can Leads be captured from a website and saved in Salesforce?
+Web to Lead allows Leads to be captured from a company website and saved in Salesforce. The Lead form can include standard and custom Lead fields. Generated HTML can be added to a public website
+
+### What is Campaign Influence?
+One or more campaigns that have influenced an Opportunity linked to an Opportunity, with one being marked as the primar
+
+### What can be done to make sure that users don't convert leads to opportunities in Lightning Experience?
+The opportunity section in the Convert Lead window can be hidden in 'Lead Settings'.
+
+### What is Campaign ROI?
+Return on investment of a campaign.
+
+### What is the Campaign Hierarchy?
+A way to link related campaigns in a hierarchy of up to 5 levels and unlimited siblings.
+
+### How is CRM Content organized?
+Files are organized into libraries. 
+* Libraries can be personal or shared. 
+* Access and permissions on shared libraries can be defined by user or public group.
+
+### What is a Content Delivery?
+A way to create a web based view of a file that can be shared via URL with external parties.
