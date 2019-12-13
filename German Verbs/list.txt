@@ -50,7 +50,7 @@
 50. erzählen to narrate, tell
 51. versuchen to try, attempt
 52. schreiben to write
-53. laufen, to run
+53. laufen to run
 54. erklären to explain
 55. entsprechen to correspond
 56. sitzen to sit
@@ -88,7 +88,7 @@
 88. schließen to close
 89. fühlen to feel
 90. bieten to offer
-91. interessierento interest
+91. interessieren to interest
 92. erinnern to remember
 93. ergeben to result in
 94. an·bieten to offer
