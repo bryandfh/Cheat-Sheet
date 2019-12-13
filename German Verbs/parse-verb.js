@@ -1,14 +1,8 @@
+let {PythonShell} = require('python-shell')
 let fs = require('fs');
-const {PythonShell} = require('python-shell')
-let options = { //Python shell config
-    mode: 'text',
-    pythonOptions: ['-u'],
-    args: ['sehen']
-};
 
 const getData = (x) => fs.readFileSync(x).toString().split("\n");
-
-let data = getData('list.txt')
+let data = getData('list2.txt')
 
 const parse = data.map(function(item) {
     //Remove breakline, remove the initial number, and separate string after first space. From Lana del rey => [Lana, del Rey] 
@@ -18,42 +12,39 @@ const parse = data.map(function(item) {
 //Get just verbs
 const verbs = parse.map( item => item[0]);
 
-/*
-const query = verbs.map(function(item) {
+function python(v){
+    return new Promise(async function(resolve, reject){
+        console.log('Verbo: ' + v)
+          let options = {
+          mode: 'text',
+          pythonOptions: ['-u'],
+          args: [v]
+         };
 
-    return 
-});*/
+          await PythonShell.run('scrape-verb.py', options, function (err, results) {
+          //On 'results' we get list of strings of all print done in your py scripts sequentially. 
+          if (err) throw err;
+      resolve(results)
+     });
+   })
+ } 
 
-const print = (x) => console.log(x)
+function conjugate(v){
+    return new Promise(async function(resolve, reject){
+        let r =  await python(v)
+        r = r.toString().replace( /[\r\n]+/gm, "" );
+        resolve( r)
+    })
+ }
 
-const conjugate = function (verb, opt){
-    opt.args = [verb];
-    PythonShell.run('scrape-verb.py', options, function (err, results) {
-        if (err) throw err;
-        return results; 
-        //console.log('results: %j', results[0].split(","));
-    });
+const conjugateAllVerbs = async () => {
+    return Promise.all(verbs.map(item => conjugate(item)))
 }
+  
+conjugateAllVerbs().then(data => {
+    let dataf = data;
+    console.log(dataf)
+})
 
-const test = async function(verb, opt) {
-    opt.args = [verb];
-    const result = await new Promise((resolve, reject) => {
-        PythonShell.run('scrape-verb.py', opt, (err, results) => {
-        if (err) return reject(err);
-        return resolve(results);
-        });
-    });
-    return result
-}
 
-print(test('essen',options));
 
-/*
-PythonShell.run('scrape-verb.py', options, function (err, results) {
-  if (err) 
-    throw err;
-  // Results is an array consisting of messages collected during execution
-  //let result = results[0].replace("[","").replace("]","").split(",");
-  console.log('results: %j', results[0].split(","));
-});
-*/
