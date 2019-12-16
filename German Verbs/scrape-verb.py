@@ -17,10 +17,10 @@ txt = row.get_text(separator=" ").split()
 json_data =  { 
     "Ich": txt[2], 
     "Du": txt[4], 
-    "Er/Sie/Es":txt[6],
+    "Er_Sie_Es":txt[6],
     "Wir": txt[8],
     "Ihr": txt[10],
-    "Sie/sie": txt[12]
+    "Sie_sie": txt[12]
     }
 
 data = ''
@@ -31,6 +31,5 @@ for i in range(2,13):
         else:
             data += txt[i] + ","
 
-data = data.encode('utf8')
-print(data)
+print(json.dumps(json_data, ensure_ascii=True).encode('utf8'))
 sys.stdout.flush()
