@@ -43,6 +43,22 @@ Workflows and approval processes include the capability to generate the followin
   * Can use existing actions either in Immediate Workflow Actions or Time-Dependent Actions.
 * Immediate Actions:
   * If multiple actions are defined, the order of execution is not guaranteed, but field updates execute first.
-* Time Dependent Actions
 * Time Trigger:
   * Workflow rule is already active (must deactivate, add time trigger, then activate again).
+* Time Dependent Actions
+![Time Dependent Actions](/images/workflow-time-dependent.png)
+
+### Lightning Process Builder
+
+It's similar to standard workflow but with more powerful. One of the main limitations with Process Builder compared to Workflows is it cannot send outbound messages. Use for if/then requirements.
+
+#### Process Definition
+At a high level, a process definition consists of the following steps:
+* Select one of the options for starting a process:
+ * A record changes
+ * A platform event occurs
+ * It's invoked by another process
+* Define the object for the process.
+* Define the criteria when it will run.
+* Define the activities that need to be automated.
+* Activate the Process.
