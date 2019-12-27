@@ -55,9 +55,9 @@ It's similar to standard workflow but with more powerful. One of the main limita
 #### Process Definition
 At a high level, a process definition consists of the following steps:
 * Select one of the options for starting a process:
- * A record changes
- * A platform event occurs
- * It's invoked by another process
+  * A record changes
+  * A platform event occurs
+  * It's invoked by another process
 * Define the object for the process.
 * Define the criteria when it will run.
 * Define the activities that need to be automated.
