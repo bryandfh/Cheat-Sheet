@@ -62,3 +62,40 @@ At a high level, a process definition consists of the following steps:
 * Define the criteria when it will run.
 * Define the activities that need to be automated.
 * Activate the Process.
+
+### Process Builder Actions
+* Apex
+  * To invoke an Apex class that exists in the org. Ideal for getting complex calculations done or to trigger another code based business process
+  
+* Create a Record
+  * To create a new record of any related or unrelated object
+
+* Email Alerts
+  * To invoke an email alert configured in the org. The email alert must also be configured on the same object as the process being defined.
+
+* Flows
+  * To invoke a Flow that is already defined in the org. Ideal for performing operations that includes getting a user input / deleting records / updating un-related records etc. Also, Flow can be scheduled on a certain frequency.
+
+* Post to Chatter
+  * To make a post onto Chatter. Process Builder Chatter action can be configured to post the message to a User / a Chatter Group / or in context of the record Chatter feed. While defining the message template, @ mentions topics and merge fields can also be defined.
+
+* Processes
+  * To select an invocable Process Builder process. Helpful for when there are many repeated steps.
+
+* Quick Actions
+  * To invoke a Quick Action that is defined in the org. Can be used to invoke quick actions that creates a record update a record or logs a call. Both Global Action and Object Level actions can be invoked.
+
+* Quip
+  * To include standard Quip actions such as send message in chat or document, add members to chat or document, etc.
+
+* Send Custom Notification
+  * To send a notification with a custom message to selected recipients. There must be an existing notification type to be able to use this action type.
+
+* Send Survey Invitation
+  * To send email survey invitations to leads, contacts, and users. There must be an active survey to be able to use this action type.
+
+* Submit for Approval
+  * To submit the record in context for approval. Process Builder gives the option to choose which approval process to use and who to submit it as.
+
+* Update Records
+  * To update the record or related records of the specific record in context.
