@@ -46,7 +46,7 @@ Workflows and approval processes include the capability to generate the followin
 * Time Trigger:
   * Workflow rule is already active (must deactivate, add time trigger, then activate again).
 * Time Dependent Actions
-![Time Dependent Actions](/images/workflow-time-dependent.png)
+![Time Dependent Actions](./images/workflow-time-dependent.png)
 
 ### Lightning Process Builder
 
@@ -120,7 +120,7 @@ Approval Processes Overview allow defining a series of steps to automate the pro
  * Define approval or rejection actions
 * Specify Approval Actions
 
-![Approval Action](/images/approval-action.png)
+![Approval Action](./images/approval-action.png)
 Approval processes can include actions: Email alerts. Creating Tasks. Field Updates. Outbound messages
 
 ### Steps for Approval:
