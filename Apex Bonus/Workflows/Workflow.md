@@ -50,7 +50,7 @@ Workflows and approval processes include the capability to generate the followin
 
 ### Lightning Process Builder
 
-It's similar to standard workflow but with more powerful. One of the main limitations with Process Builder compared to Workflows is it cannot send outbound messages. Use for if/then requirements.
+It's similar to standard workflow but more powerful. One of the main limitations with Process Builder compared to Workflows is it cannot send outbound messages. PB is used for if/then requirements.
 
 #### Process Definition
 At a high level, a process definition consists of the following steps:
