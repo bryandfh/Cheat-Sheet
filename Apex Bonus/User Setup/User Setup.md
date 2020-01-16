@@ -1,8 +1,8 @@
 # User Setup 7%
 
-## Identify the steps to set up and / or maintain a user
+### **Identify the steps to set up and / or maintain a user**
 
-### Manage Users
+#### Manage Users
 
 * Users:
     * Create one user:
