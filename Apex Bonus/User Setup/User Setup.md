@@ -14,17 +14,17 @@
 * All users will have the same license assigned.
 * The email and username will be the same when adding a user with this method. Individual user records will need to be edited after creation to choose further details
 
-#### **Login History: **
+#### **Login History:**
 * Can be viewed as a related list.
 * It shows up to 20K records
 ![Login history](./images/loginhistory1.png)
 
-#### **Reset passwords: **
+#### **Reset passwords:**
 * Password can be reset by users, and administrator. An administrator can reset the password of multiple Users.
 * Password can be reset on the Salesforce Mobile App
 * Locked Users Accounts:  System administrator can unlock an account that has been locked due to too many failed attempts to access, or unfreeze an account that has been frozen previously.
 
-#### **Delegated Administration: **
+#### **Delegated Administration:**
 * The System Administrator can delegate certain administrative tasks to a delegated group.
 * User in a deletage group can :
     * Create and edit users in specific profiles and roles.
