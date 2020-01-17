@@ -64,11 +64,7 @@
 
 **Why would a user be freezed?:** To prevent the user from logging in without deactivating them, allowing for changes to any customization where the user has been used (e.g. workflow email alerts)
 
-**What are some common user access issues?**:
-* Wrong Username
-* Entering password in wrong case
-* User is locked
-* Trying to login to a sandbox with the wrong URL
+**What are some common user access issues?:** Wrong Username. Entering password in wrong case. User is locked. Trying to login to a sandbox with the wrong URL.
 
 **What can be done to immediately prevent a user that left the company from having any access to Salesforce?:** Freeze the user record, then make the adjustments needed to deactivate.
 
