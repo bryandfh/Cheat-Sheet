@@ -1,6 +1,6 @@
 # User Setup 7%
 
-### Manage Users
+## Manage Users
 
 #### **Create one user:**
 * Required Fields: Last Name, Alias, Email, Username, Nickname, User License, Profile.
@@ -40,3 +40,27 @@
 * Trying to access org outside of business hours set by System Admin.
 * IP restrictions.
 * New user has not verified the account.
+
+## Implications of activating, deactivating, or freezing a user
+
+### Activating Users:
+* Activating a user record enables the user to login and access to Salesforce.
+* User records must start as Activated upon creation.
+* Users can be Activated after being Deactivated.
+* An email will be sent to the user with their username and account verification link.
+
+### Deactivating Users
+* Deactivating a user disables them from logging in and having access to Salesforce.
+* Users cannot be deleted.
+* Users cannot be deactivated if they are the sole recipient of a Workflow Email Alert, Customer Portal Administrator, or User selected in a Custom Hierarchy Field.
+* Self Deactivation can be enabled to allow external Community and Chatter users deactivate their own accounts.
+
+### Freezing Users
+* Freezing a user record can be used when steps to deactivate a user are incomplete.
+* Freezing users is an immediate action.
+* Freezing a user does not release their license. To release the license the user must be deactivated.
+
+# Review:
+
+#### Why would a user be freezed?
+To prevent the user from logging in without deactivating them, allowing for changes to any customization where the user has been used (e.g. workflow email alerts)
