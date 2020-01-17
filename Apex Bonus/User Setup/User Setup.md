@@ -15,8 +15,9 @@
 * The email and username will be the same when adding a user with this method. Individual user records will need to be edited after creation to choose further details
 
 #### **Login History:**
+* It shows up to 20K records.
 * Can be viewed as a related list.
-* It shows up to 20K records
+
 ![Login history](./images/loginhistory1.png)
 
 #### **Reset passwords:**
@@ -39,8 +40,3 @@
 * Trying to access org outside of business hours set by System Admin.
 * IP restrictions.
 * New user has not verified the account.
-
-    
-
-
-
