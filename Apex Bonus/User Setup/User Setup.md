@@ -2,11 +2,11 @@
 
 ### Manage Users
 
-* Create one user:
-    * Required Fields: Last Name, Alias, Email, Username, Nickname, User License, Profile.
-    * To complete the setup process, the user would have to click on the account verification link sent via email and create a password and security question.
-    * Users can't be deleted.
-    ![Create new user ](./images/createnewuser1.png)
+**Create one user:**
+* Required Fields: Last Name, Alias, Email, Username, Nickname, User License, Profile.
+* To complete the setup process, the user would have to click on the account verification link sent via email and create a password and security question.
+* Users can't be deleted.
+![Create new user ](./images/createnewuser1.png)
 
 * Adding Multiple Users:
     * Up to 10 users can be added at a time.
