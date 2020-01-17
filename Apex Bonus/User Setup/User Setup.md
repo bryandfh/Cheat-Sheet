@@ -62,20 +62,20 @@
 
 # Review:
 
-**Why would a user be freezed?:** To prevent the user from logging in without deactivating them, allowing for changes to any customization where the user has been used (e.g. workflow email alerts)
+**Why would a user be freezed? :** To prevent the user from logging in without deactivating them, allowing for changes to any customization where the user has been used (e.g. workflow email alerts)
 
-**What are some common user access issues?:** Wrong Username. Entering password in wrong case. User is locked. Trying to login to a sandbox with the wrong URL.
+**What are some common user access issues? :** Wrong Username. Entering password in wrong case. User is locked. Trying to login to a sandbox with the wrong URL.
 
-**What can be done to immediately prevent a user that left the company from having any access to Salesforce?:** Freeze the user record, then make the adjustments needed to deactivate.
+**What can be done to immediately prevent a user that left the company from having any access to Salesforce? :** Freeze the user record, then make the adjustments needed to deactivate.
 
-**What should be done when a user no longer needs to use Salesforce?:** Deactivate the user record; users cannot be deleted.
+**What should be done when a user no longer needs to use Salesforce? :** Deactivate the user record; users cannot be deleted.
 
-**What administration tasks can an administrator delegate?:** Create and assign users in certain roles and profiles, assign permissions sets, public groups, reset passwords, manage specific custom objects
+**What administration tasks can an administrator delegate? :** Create and assign users in certain roles and profiles, assign permissions sets, public groups, reset passwords, manage specific custom objects
 
 **What field must be marked on the user record for users to be able to log in?:** The “Active” checkbox
 
-**What is the minimum information required to setup a user?:** Username, Last Name, Email, Profile, Alias, Nickname and License.
+**What is the minimum information required to setup a user? :** Username, Last Name, Email, Profile, Alias, Nickname and License.
 
-**What localization settings apply to a user?:** Locale, Language, Time Zone and Currency Locale.
+**What localization settings apply to a user? :** Locale, Language, Time Zone and Currency Locale.
 
-**How would it be possible to check why a user is not able to login?:** Login history on user record, or Login History for all users will give information regarding a login attempt.
+**How would it be possible to check why a user is not able to login? :** Login history on user record, or Login History for all users will give information regarding a login attempt.
