@@ -67,3 +67,41 @@ Salesforce API allows access to Salesforce programmatically, instead of using th
 * Availability: It is available for Enterprise, Unlimited, Developer, and Performance editions.
 * Limits: The number of API requests that can be made in a 24 hour period based on edition and number of user licenses.
 * Monitoring: API usage can be monitored from the Company Settings page.
+
+# Review
+
+### What do locale settings impact?
+Format of Date, Time, Number, Phone Number, Name and Address fields
+
+### What do business hours and holidays impact?
+Business hours and holidays are used in calculations to determine when to escalate a case or when an entitlement milestone is reached.
+
+### What are the options to define fiscal years?
+Standard or custom fiscal years. Standard fiscal years are based on a monthly structure and can start on any month. Custom Fiscal years can use a different structure such as quarters.
+
+### What level of language support does Salesforce provide and how is a user's language setting controlled?
+Salesforce offers a number of Fully Supported, End User and Platform Only languages. The language on the Company Settings page is applied to new users, but it can be overriden in My Settings.
+
+### What is the Salesforce API?
+The API is a way of accessing Salesforce programmatically and is used by Data Loading and Integration tools.
+
+### What is the organization ID?
+A unique 15 character identifier that identifies each Salesforce organization and is different in each environment.
+
+### What time zone is used for new users?
+The time zone for new users is set using default time zone on the Company Settings page, but users can override it in My Settings.
+
+### Why would multi-currency be used?
+Multi-currency is used to be able to record amounts in different currencies on records and be able to forecast and report in one corporate currency.
+
+### Why would advanced currency management be used?
+Advanced currency management allows dated exchange rates to be recorded to track the amounts when opportunities were closed.
+
+### What are the two types of licenses?
+User and Feature. User licenses define the baseline of features a user can access. Feature licenses grant additional access to specific functionality such as Knowledge, Content or Marketing.
+
+### How is storage managed in Salesforce?
+Salesforce has two categories of storage, Data and File storage. Records use Data Storage and File Storage is used by Attachments, Documents, Files, Content and Chatter.
+
+### How can users see their correct time zones if the organization default is set to a different time zone?
+Under My Settings, users can set their own time zones to override the organizational default.
