@@ -145,3 +145,10 @@ User Permissions Needed
 * Subfolders can be created in user created folders, but not in the Public or Private folder
 * Folders can be renamed or deleted (if it doesn't contain any reports or dashboards)
 * The subfolder hierarchy can be 3 levels, for example:
+
+### Security Health Check
+* 90% and above -> Excellent
+* 80%–89% -> Very Good
+* 70%–79% -> Good
+* 55%–69% -> Poor
+* 54% and below -> Very Poor
