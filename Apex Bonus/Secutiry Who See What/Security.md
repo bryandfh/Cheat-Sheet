@@ -1,8 +1,8 @@
 # Data Security
-![Security sharing](/images/security_sharing_concepts.jpg)
+![Security sharing](./images/security_sharing_concepts.jpg)
 
 ### Set Password policies
-![Security sharing](/images/password_policies.png)
+![Security sharing](./images/password_policies.png)
 
 ### Access layers
 
@@ -25,6 +25,6 @@ After setting object- and field-level access permissions, you may want to config
 To specify record-level security, set your organization-wide sharing settings, define a hierarchy, and create sharing rules.
 
 * Organization-wide sharing settings—The first step in record-level security is to determine the organization-wide sharing settings for each object. Organization-wide sharing settings specify the default level of access users have to each others’ records.
-    You use organization-wide sharing settings to lock down your data to the most restrictive level, and then use the other record-level security and sharing tools to selectively give access to other users. For example, let’s say users have object-level permissions to read and edit opportunities, and the organization-wide sharing setting is Read-Only. By default, those users can read all opportunity records, but can’t edit any unless they own the record or are granted additional permissions.
+You use organization-wide sharing settings to lock down your data to the most restrictive level, and then use the other record-level security and sharing tools to selectively give access to other users. For example, let’s say users have object-level permissions to read and edit opportunities, and the organization-wide sharing setting is Read-Only. By default, those users can read all opportunity records, but can’t edit any unless they own the record or are granted additional permissions.
 
     
