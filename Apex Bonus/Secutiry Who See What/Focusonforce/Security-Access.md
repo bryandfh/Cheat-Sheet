@@ -86,7 +86,7 @@ Access granted can be ‘Read Only’ or ‘Read/Write’.
 * Organization-wide default settings open up access to records the user does not own for specific objects.
 * Sharing rules open up record access to users when the OWD settings are set to anything more restrictive than Public Read/Write.
 * Individual records can be manually shared using the ‘Sharing’ button
-![Organization-Level Checks](./images/record-access-summary.jpg)
+![Organization-Level Checks](./images/record-access-summary.png)
 
 ### Public Groups
 * Administrators can create Public Groups.
